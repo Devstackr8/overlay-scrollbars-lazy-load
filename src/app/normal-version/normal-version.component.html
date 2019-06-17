@@ -1,0 +1,9 @@
+<div class="centered-content">
+
+    <div #chatlogBox class="chatlog-box" (scroll)="onChatlogBoxScroll()">
+      <div #messageEl *ngFor="let message of messages">
+        <p>{{ message }}</p>
+      </div>
+    </div>
+    
+</div>

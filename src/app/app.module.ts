@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { OsVersionComponent } from './os-version/os-version.component';
+import { NormalVersionComponent } from './normal-version/normal-version.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    OsVersionComponent,
+    NormalVersionComponent
   ],
   imports: [
     BrowserModule,

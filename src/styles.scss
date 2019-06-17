@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import '../node_modules/bulma/bulma.sass';
+@import '../node_modules/overlayscrollbars/css/OverlayScrollbars';
+
+
+// Global styles
+
+html, body {
+    height: 100%;
+    background: rgb(242, 244, 245);
+}
+
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatlog-box {
+    height: 530px;
+    overflow-y: scroll;
+    padding: 20px;
+    width: 500px;
+    background: white;
+    font-size: 20px;
+}

@@ -1,0 +1,23 @@
+<div #chatlogBox class="chatlog-box">
+  <div style="padding-right: 25px;">
+    <div #messageEl *ngFor="let message of messages">
+      <p>{{message}}</p>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- <div class="root">
+  
+    <div class="chatlog-container">
+      <div #chatlogBox class="chatlog-box1">
+        <div style="padding-right: 25px;">
+          <div #messageEl *ngFor="let message of messages">
+            <p>{{message}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </div> -->
